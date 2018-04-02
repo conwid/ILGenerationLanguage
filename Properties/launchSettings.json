@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "TestPlugin": {
+      "commandName": "Executable",
+      "executablePath": "\"F:\\Projects\\ilspy\\ILSpy\\ILSpy\\bin\\Debug\\net46\\ILSpy.exe\"",
+      "commandLineArgs": "/separate"
+    }
+  }
+}
