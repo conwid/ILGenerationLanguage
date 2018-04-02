@@ -53,14 +53,6 @@
     <Compile Include="TypeReferenceExtensions.cs" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Resource Include="Clear.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Page Include="CustomOptionPage.xaml" />
-  </ItemGroup>
-
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <Exec Command="copy /y &quot;$(TargetPath)&quot; &quot;$(SolutionDir)ILSpy\bin\Debug\net46&quot;" />
   </Target>
